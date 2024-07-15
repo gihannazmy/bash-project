@@ -67,7 +67,7 @@ do
                     echo "Connected to '$db_name'"
                     
                     # Call another script here
-                    ~/ITI/git/bash-project/tablescript.sh
+                    ./tablescript.sh
                 else
                     echo "The database '$db_name' does not exist."
                 fi
